@@ -1,2 +1,5 @@
 # Crossword-Puzzle-Generator-CLI
-A Java CLI application that allows users to interactively build and manage a crossword puzzle.
+
+One-line description: A Java CLI application that allows users to interactively build and manage a crossword puzzle.
+
+Summary: This Java program offers a command-line interface (CLI) for creating and displaying crossword puzzles. It is structured around the `CrosswordPuzzle` class, which manages a 20x20 grid of characters, initially filled with dots representing empty spaces. Users can add words to the puzzle, which are placed either horizontally or vertically depending on available space and intersections with existing words. The main interaction loop provides options to insert new words, view the current state of the grid, or exit the program. Input is managed with a `Scanner` object, ensuring that only valid alphabetic strings are accepted as words. The program handles first words specially by placing them in the middle of the grid, and subsequent words are attempted to be added by checking for possible intersections or fitting them in empty spaces. The application efficiently tracks placed letters and their coordinates to facilitate quick lookups for fitting new words. This tool is ideal for educational purposes, crossword puzzle enthusiasts, or developers looking to implement basic text-based game mechanics.
